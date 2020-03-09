@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miheretu</title>
-    <link rel="icon" href="asset\image\MT.png">
+    <link rel="icon" href="asset\image\MT.jpg">
 </head>
 <body>
     <!-- Navigation -->
@@ -12,14 +12,11 @@
     <a href="index.html" >Home</a>  | 
     <a href="contact.html" target="_blanck">Contact</a>
     <!--<a href="contact.html" target="_blanck">Contact</a>-->
-
-
     <hr>
-
     <table>
         <tr>
             <td>
-                <img src="asset\image\MT.png" alt="picture of lion">
+                <img src="asset\image\MT.jpg" alt="picture of lion">
             </td>
             <td>
                 <h1>Miheretu Teshale</h1>
@@ -65,53 +62,53 @@
         <input type="submit" value="Submit">
     </form> -->
     
-    
-    
-
     <hr>
     <hr>
             
         <!-- This is Top Skills table-->
-        <table>
-            <tr>
-                <td>First Name</td>
-                <td><input type="text" name="fName" id="fName"></td>
-            </tr>
-            <tr>
-                <td>Last Name</td>
-                <td><input type="text" name="lName" id="lName"></td>
-            </tr>
-            <tr>
-                <td><label for="pw">Password</label></td>
-                <td><input type="password" name="pw" id="pw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></td>
-            </tr>
-            <tr>
-                <td><label for="email">E-Mail</label></td>
-                <td><input type="text" name="lName" id="email"></td>
-            </tr>
-            <tr>
-                <td><select name="country" id="">
-                    <option value="Asia">Asia</option>
-                    <option value="">Azerbajan</option>
-                </select></td>
-            </tr>
-            <tr>
-                <td><label for="detail">what do you say?</label><br></td>
-                <td><textarea name="detail" id="datail" cols="30" rows="10"></textarea></td>
-
-            </tr>
-            <tr>
-                <td><input type="submit" value="Submit"></td>
-            </tr>
-        </table>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="fName">First Name</label></td>
+                    <td><input type="text" name="fName" id="password"
+                        pattern="[A-Za-z]{6,12}" title="Name must be a letter, between 6 and 12"
+                        required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="passwor " name="password" id="password"
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="" 
+                        title="Must contain at least one  number and one 
+                        uppercase and lowercase letter, and at least 8 or more characters" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail</label></td>
+                    <td><input type="email" name="email" id="email"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="input your email"
+                        required></td>
+                </tr>
+                <tr>
+                <td><label for="textField">comment</label></td>
+                <td><textArea rows="8"></textArea></td></tr>
+                <tr><td><input type="submit"></td></tr>
+        
+            </table>
+            </form>
         
         
     
     <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=aait&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
     </iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
     <hr>
-    <a href="www.facebook.com" target="_blanck">facebook</a>
-    <a href="www.gmail.com" target="_blanck">gmail</a>
+    <table align="center">
+        <tr>
+            <td>
+                <a href="https://www.facebook.com/"><img src="asset\image\fb.png" alt="FaceBook" width="20" height="20"></a>
+                <a href="https://www.youtube.com/"><img src="asset\image\instagram.jfif" alt="Youtube" width="20" height="20"></a>
+                <a href="https://twitter.com/"><img src="twitter.jfif" alt="twitter" width="20" height="20"></a>
+            </td>
+        </tr>
+    </table>
     <hr>
     <p>Developed by Miheretu   &copy;2020</p>
 
